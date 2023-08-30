@@ -1,0 +1,11 @@
+Model Information:
+* title:	Witch Run
+* source:	https://sketchfab.com/3d-models/witch-run-2c669e393db04a9e86a78d0537e5c6cb
+* author:	LostModels2025 (https://sketchfab.com/LostModels2025)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Witch Run" (https://sketchfab.com/3d-models/witch-run-2c669e393db04a9e86a78d0537e5c6cb) by LostModels2025 (https://sketchfab.com/LostModels2025) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
