@@ -19,6 +19,7 @@
   },
   "scripts": {
     "start": "webpack serve --mode development --devtool inline-source-map --hot",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d build"
   }
 }
