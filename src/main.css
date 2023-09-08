@@ -20,7 +20,7 @@ body {
   border: 5px solid #000000; /* 加载动画的颜色 */
   border-radius: 50%;
   border-top: 5px solid #ffffff; /* 加载动画的内部颜色 */
-  animation: spin 5s linear infinite; /* 旋转动画 */
+  animation: spin 1s linear infinite; /* 旋转动画 */
 }
 
 @keyframes spin {
