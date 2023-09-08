@@ -56,6 +56,11 @@ function createInfoElement() {
   document.body.appendChild(infoElement);
 }
 createInfoElement();
+// 開場載入畫面
+window.addEventListener('load', function () {
+  const loadingScreen = document.getElementById('loading-screen');
+  loadingScreen.style.display = 'none';
+});
 // 創建攝影機函數： 這個函數創建了遊戲的攝影機，設置了攝影機的位置和方向.
 function createCamera() {
   camera = new THREE.PerspectiveCamera(

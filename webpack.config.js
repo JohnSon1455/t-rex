@@ -3,16 +3,17 @@ const path = require("path");
 
 module.exports = {
   entry: "./src/index.js",
+  mode: 'development',
   output: {
     path: path.resolve(__dirname, "./docs"),
     filename: "index_bundle.js",
-    publicPath: '/t-rex/'
   },
   plugins: [new HtmlWebpackPlugin({ template: "./src/index.html" })],
   devServer: {
-    contentBase: path.join(__dirname, "docs"),
+    static: path.join(__dirname, "docs"),
     open: true,
     port: 3000,
+    hot: true, // 啟用熱模組替換
     proxy: {
       "/api": "http://localhost:8080",
     },

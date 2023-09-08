@@ -2,6 +2,32 @@ body {
   margin: 0;
 }
 
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; /* 背景颜色 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading-icon {
+  width: 50px; /* 加载动画的宽度 */
+  height: 50px; /* 加载动画的高度 */
+  border: 5px solid #000000; /* 加载动画的颜色 */
+  border-radius: 50%;
+  border-top: 5px solid #ffffff; /* 加载动画的内部颜色 */
+  animation: spin 5s linear infinite; /* 旋转动画 */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 #info {
   color: white;
   display: block;
